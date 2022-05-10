@@ -1,6 +1,7 @@
 interface ITriangle {
     isEquilateral: boolean;
     isIsosceles: boolean;
+    isScalene: boolean;
 }
 
 export class Triangle implements ITriangle {
